@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addTaxRegimeThunk } from '../redux/taxRegimesSlice';
 import { useNavigate } from 'react-router-dom';
-import './main.scss'; // Import the SCSS file
-
- const AddTaxRegime = () => {
+import './main.scss';
+ 
+const AddTaxRegime = () => {
   const [name, setName] = useState('');
   const [rate, setRate] = useState('');
   const [uid, setUid] = useState('');

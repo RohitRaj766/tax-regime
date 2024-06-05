@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactPaginate from 'react-paginate';
-import './main.scss'; // Import SCSS for styling
+import './main.scss'; 
 
 const dummyData = Array.from({ length: 50 }, (_, index) => ({
   suggestionNumber: `SUGG-${index + 1}`,
